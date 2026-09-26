@@ -1,0 +1,20 @@
+# Datasets and large TSV/CSV data files (> 100MB exceeds GitHub limits)
+dataset/
+student_resource/dataset/
+*.tsv
+*.csv
+*.zip
+
+# Output predictions and local zip uncompressed folders
+output/
+output_train/
+FRIDAY_submission/
+/tmp/
+
+# Python artifacts & system files
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.venv/
+env/
